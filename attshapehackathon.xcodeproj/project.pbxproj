@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A16F7C11D3A0FCD00B7EB01 /* fruitbowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A16F7C01D3A0FCD00B7EB01 /* fruitbowl.jpg */; };
+		0A16F7C31D3A12A800B7EB01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A16F7C21D3A12A800B7EB01 /* AudioToolbox.framework */; };
+		0A16F7C51D3A12E000B7EB01 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A16F7C41D3A12E000B7EB01 /* CoreAudio.framework */; };
+		0A9E72481D3A0AB40071EFB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E72471D3A0AB40071EFB9 /* main.m */; };
+		0A9E724B1D3A0AB40071EFB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E724A1D3A0AB40071EFB9 /* AppDelegate.m */; };
+		0A9E724E1D3A0AB40071EFB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E724D1D3A0AB40071EFB9 /* ViewController.m */; };
+		0A9E72511D3A0AB40071EFB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E724F1D3A0AB40071EFB9 /* Main.storyboard */; };
+		0A9E72531D3A0AB40071EFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E72521D3A0AB40071EFB9 /* Assets.xcassets */; };
+		0A9E72561D3A0AB40071EFB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E72541D3A0AB40071EFB9 /* LaunchScreen.storyboard */; };
+		0A9E72611D3A0AB40071EFB9 /* attshapehackathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E72601D3A0AB40071EFB9 /* attshapehackathonTests.m */; };
+		0A9E726C1D3A0AB40071EFB9 /* attshapehackathonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E726B1D3A0AB40071EFB9 /* attshapehackathonUITests.m */; };
+		5126BD5A90282B729CF3F415 /* libPods-attshapehackathonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEAD426F29C9E287EA2F70 /* libPods-attshapehackathonUITests.a */; };
+		D6A71FB247BF8AB415838478 /* libPods-attshapehackathon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2427E20698AAB4E2AF97485D /* libPods-attshapehackathon.a */; };
+		F92C646A563BFE8FF0337F8F /* libPods-attshapehackathonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF34ED86C945381F37B8272 /* libPods-attshapehackathonTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9E725D1D3A0AB40071EFB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9E723B1D3A0AB30071EFB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9E72421D3A0AB40071EFB9;
+			remoteInfo = attshapehackathon;
+		};
+		0A9E72681D3A0AB40071EFB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9E723B1D3A0AB30071EFB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9E72421D3A0AB40071EFB9;
+			remoteInfo = attshapehackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A16F7C01D3A0FCD00B7EB01 /* fruitbowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruitbowl.jpg; sourceTree = "<group>"; };
+		0A16F7C21D3A12A800B7EB01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A16F7C41D3A12E000B7EB01 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0A9E72431D3A0AB40071EFB9 /* attshapehackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = attshapehackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9E72471D3A0AB40071EFB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A9E72491D3A0AB40071EFB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A9E724A1D3A0AB40071EFB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A9E724C1D3A0AB40071EFB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A9E724D1D3A0AB40071EFB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A9E72501D3A0AB40071EFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A9E72521D3A0AB40071EFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A9E72551D3A0AB40071EFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A9E72571D3A0AB40071EFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9E725C1D3A0AB40071EFB9 /* attshapehackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = attshapehackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9E72601D3A0AB40071EFB9 /* attshapehackathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = attshapehackathonTests.m; sourceTree = "<group>"; };
+		0A9E72621D3A0AB40071EFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9E72671D3A0AB40071EFB9 /* attshapehackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = attshapehackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9E726B1D3A0AB40071EFB9 /* attshapehackathonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = attshapehackathonUITests.m; sourceTree = "<group>"; };
+		0A9E726D1D3A0AB40071EFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF1339E3290E37073F0CFA8 /* Pods-attshapehackathonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attshapehackathonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-attshapehackathonTests/Pods-attshapehackathonTests.release.xcconfig"; sourceTree = "<group>"; };
+		2427E20698AAB4E2AF97485D /* libPods-attshapehackathon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-attshapehackathon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9B72C84A05604854E4CE42 /* Pods-attshapehackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attshapehackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-attshapehackathon/Pods-attshapehackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF34ED86C945381F37B8272 /* libPods-attshapehackathonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-attshapehackathonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EEAD426F29C9E287EA2F70 /* libPods-attshapehackathonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-attshapehackathonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89803198C0CBED7963A75FD1 /* Pods-attshapehackathonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attshapehackathonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-attshapehackathonUITests/Pods-attshapehackathonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A12E161879AD2ABB386A08C9 /* Pods-attshapehackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attshapehackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-attshapehackathon/Pods-attshapehackathon.release.xcconfig"; sourceTree = "<group>"; };
+		A38F9DE0808FE79A61908530 /* Pods-attshapehackathonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attshapehackathonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-attshapehackathonTests/Pods-attshapehackathonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD0A5AEB8C7B7F7EC1E4542B /* Pods-attshapehackathonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attshapehackathonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-attshapehackathonUITests/Pods-attshapehackathonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9E72401D3A0AB40071EFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A16F7C51D3A12E000B7EB01 /* CoreAudio.framework in Frameworks */,
+				0A16F7C31D3A12A800B7EB01 /* AudioToolbox.framework in Frameworks */,
+				D6A71FB247BF8AB415838478 /* libPods-attshapehackathon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9E72591D3A0AB40071EFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92C646A563BFE8FF0337F8F /* libPods-attshapehackathonTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9E72641D3A0AB40071EFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5126BD5A90282B729CF3F415 /* libPods-attshapehackathonUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9E723A1D3A0AB30071EFB9 = {
+			isa = PBXGroup;
+			children = (
+				0A9E72451D3A0AB40071EFB9 /* attshapehackathon */,
+				0A9E725F1D3A0AB40071EFB9 /* attshapehackathonTests */,
+				0A9E726A1D3A0AB40071EFB9 /* attshapehackathonUITests */,
+				0A9E72441D3A0AB40071EFB9 /* Products */,
+				CF9D77732FD3930561EF9055 /* Pods */,
+				55DCC6C5C38F6A51BC0B0760 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9E72441D3A0AB40071EFB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E72431D3A0AB40071EFB9 /* attshapehackathon.app */,
+				0A9E725C1D3A0AB40071EFB9 /* attshapehackathonTests.xctest */,
+				0A9E72671D3A0AB40071EFB9 /* attshapehackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9E72451D3A0AB40071EFB9 /* attshapehackathon */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E72491D3A0AB40071EFB9 /* AppDelegate.h */,
+				0A9E724A1D3A0AB40071EFB9 /* AppDelegate.m */,
+				0A9E724C1D3A0AB40071EFB9 /* ViewController.h */,
+				0A9E724D1D3A0AB40071EFB9 /* ViewController.m */,
+				0A16F7C01D3A0FCD00B7EB01 /* fruitbowl.jpg */,
+				0A9E724F1D3A0AB40071EFB9 /* Main.storyboard */,
+				0A9E72521D3A0AB40071EFB9 /* Assets.xcassets */,
+				0A9E72541D3A0AB40071EFB9 /* LaunchScreen.storyboard */,
+				0A9E72571D3A0AB40071EFB9 /* Info.plist */,
+				0A9E72461D3A0AB40071EFB9 /* Supporting Files */,
+			);
+			path = attshapehackathon;
+			sourceTree = "<group>";
+		};
+		0A9E72461D3A0AB40071EFB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E72471D3A0AB40071EFB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9E725F1D3A0AB40071EFB9 /* attshapehackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E72601D3A0AB40071EFB9 /* attshapehackathonTests.m */,
+				0A9E72621D3A0AB40071EFB9 /* Info.plist */,
+			);
+			path = attshapehackathonTests;
+			sourceTree = "<group>";
+		};
+		0A9E726A1D3A0AB40071EFB9 /* attshapehackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E726B1D3A0AB40071EFB9 /* attshapehackathonUITests.m */,
+				0A9E726D1D3A0AB40071EFB9 /* Info.plist */,
+			);
+			path = attshapehackathonUITests;
+			sourceTree = "<group>";
+		};
+		55DCC6C5C38F6A51BC0B0760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A16F7C41D3A12E000B7EB01 /* CoreAudio.framework */,
+				0A16F7C21D3A12A800B7EB01 /* AudioToolbox.framework */,
+				2427E20698AAB4E2AF97485D /* libPods-attshapehackathon.a */,
+				3BF34ED86C945381F37B8272 /* libPods-attshapehackathonTests.a */,
+				58EEAD426F29C9E287EA2F70 /* libPods-attshapehackathonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9D77732FD3930561EF9055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B9B72C84A05604854E4CE42 /* Pods-attshapehackathon.debug.xcconfig */,
+				A12E161879AD2ABB386A08C9 /* Pods-attshapehackathon.release.xcconfig */,
+				A38F9DE0808FE79A61908530 /* Pods-attshapehackathonTests.debug.xcconfig */,
+				0DF1339E3290E37073F0CFA8 /* Pods-attshapehackathonTests.release.xcconfig */,
+				DD0A5AEB8C7B7F7EC1E4542B /* Pods-attshapehackathonUITests.debug.xcconfig */,
+				89803198C0CBED7963A75FD1 /* Pods-attshapehackathonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9E72421D3A0AB40071EFB9 /* attshapehackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9E72701D3A0AB40071EFB9 /* Build configuration list for PBXNativeTarget "attshapehackathon" */;
+			buildPhases = (
+				3B43FF8E5EDC37EAC1440CC3 /* [CP] Check Pods Manifest.lock */,
+				0A9E723F1D3A0AB40071EFB9 /* Sources */,
+				0A9E72401D3A0AB40071EFB9 /* Frameworks */,
+				0A9E72411D3A0AB40071EFB9 /* Resources */,
+				089679ABAF50FCBC4C018176 /* [CP] Embed Pods Frameworks */,
+				A2C841FF900873E42E48DCDC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = attshapehackathon;
+			productName = attshapehackathon;
+			productReference = 0A9E72431D3A0AB40071EFB9 /* attshapehackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9E725B1D3A0AB40071EFB9 /* attshapehackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9E72731D3A0AB40071EFB9 /* Build configuration list for PBXNativeTarget "attshapehackathonTests" */;
+			buildPhases = (
+				77EF3AB893783430C9806436 /* [CP] Check Pods Manifest.lock */,
+				0A9E72581D3A0AB40071EFB9 /* Sources */,
+				0A9E72591D3A0AB40071EFB9 /* Frameworks */,
+				0A9E725A1D3A0AB40071EFB9 /* Resources */,
+				2A06B9D384F70A6888DC67FA /* [CP] Embed Pods Frameworks */,
+				13D9B10AB510A83741EED98B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9E725E1D3A0AB40071EFB9 /* PBXTargetDependency */,
+			);
+			name = attshapehackathonTests;
+			productName = attshapehackathonTests;
+			productReference = 0A9E725C1D3A0AB40071EFB9 /* attshapehackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A9E72661D3A0AB40071EFB9 /* attshapehackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9E72761D3A0AB40071EFB9 /* Build configuration list for PBXNativeTarget "attshapehackathonUITests" */;
+			buildPhases = (
+				BCA9BA3C5302A6AD0591580B /* [CP] Check Pods Manifest.lock */,
+				0A9E72631D3A0AB40071EFB9 /* Sources */,
+				0A9E72641D3A0AB40071EFB9 /* Frameworks */,
+				0A9E72651D3A0AB40071EFB9 /* Resources */,
+				EE1343D7CB06234EE0B9090B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9E72691D3A0AB40071EFB9 /* PBXTargetDependency */,
+			);
+			name = attshapehackathonUITests;
+			productName = attshapehackathonUITests;
+			productReference = 0A9E72671D3A0AB40071EFB9 /* attshapehackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9E723B1D3A0AB30071EFB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Fang";
+				TargetAttributes = {
+					0A9E72421D3A0AB40071EFB9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0A9E725B1D3A0AB40071EFB9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0A9E72421D3A0AB40071EFB9;
+					};
+					0A9E72661D3A0AB40071EFB9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0A9E72421D3A0AB40071EFB9;
+					};
+				};
+			};
+			buildConfigurationList = 0A9E723E1D3A0AB30071EFB9 /* Build configuration list for PBXProject "attshapehackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9E723A1D3A0AB30071EFB9;
+			productRefGroup = 0A9E72441D3A0AB40071EFB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9E72421D3A0AB40071EFB9 /* attshapehackathon */,
+				0A9E725B1D3A0AB40071EFB9 /* attshapehackathonTests */,
+				0A9E72661D3A0AB40071EFB9 /* attshapehackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9E72411D3A0AB40071EFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9E72561D3A0AB40071EFB9 /* LaunchScreen.storyboard in Resources */,
+				0A9E72531D3A0AB40071EFB9 /* Assets.xcassets in Resources */,
+				0A16F7C11D3A0FCD00B7EB01 /* fruitbowl.jpg in Resources */,
+				0A9E72511D3A0AB40071EFB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9E725A1D3A0AB40071EFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9E72651D3A0AB40071EFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089679ABAF50FCBC4C018176 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-attshapehackathon/Pods-attshapehackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D9B10AB510A83741EED98B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-attshapehackathonTests/Pods-attshapehackathonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A06B9D384F70A6888DC67FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-attshapehackathonTests/Pods-attshapehackathonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B43FF8E5EDC37EAC1440CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77EF3AB893783430C9806436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C841FF900873E42E48DCDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-attshapehackathon/Pods-attshapehackathon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA9BA3C5302A6AD0591580B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1343D7CB06234EE0B9090B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-attshapehackathonUITests/Pods-attshapehackathonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9E723F1D3A0AB40071EFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9E724E1D3A0AB40071EFB9 /* ViewController.m in Sources */,
+				0A9E724B1D3A0AB40071EFB9 /* AppDelegate.m in Sources */,
+				0A9E72481D3A0AB40071EFB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9E72581D3A0AB40071EFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9E72611D3A0AB40071EFB9 /* attshapehackathonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9E72631D3A0AB40071EFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9E726C1D3A0AB40071EFB9 /* attshapehackathonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9E725E1D3A0AB40071EFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9E72421D3A0AB40071EFB9 /* attshapehackathon */;
+			targetProxy = 0A9E725D1D3A0AB40071EFB9 /* PBXContainerItemProxy */;
+		};
+		0A9E72691D3A0AB40071EFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9E72421D3A0AB40071EFB9 /* attshapehackathon */;
+			targetProxy = 0A9E72681D3A0AB40071EFB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A9E724F1D3A0AB40071EFB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9E72501D3A0AB40071EFB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9E72541D3A0AB40071EFB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9E72551D3A0AB40071EFB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9E726E1D3A0AB40071EFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9E726F1D3A0AB40071EFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9E72711D3A0AB40071EFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9B72C84A05604854E4CE42 /* Pods-attshapehackathon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = attshapehackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kfang.attshapehackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A9E72721D3A0AB40071EFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12E161879AD2ABB386A08C9 /* Pods-attshapehackathon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = attshapehackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kfang.attshapehackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A9E72741D3A0AB40071EFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38F9DE0808FE79A61908530 /* Pods-attshapehackathonTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = attshapehackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kfang.attshapehackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/attshapehackathon.app/attshapehackathon";
+			};
+			name = Debug;
+		};
+		0A9E72751D3A0AB40071EFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF1339E3290E37073F0CFA8 /* Pods-attshapehackathonTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = attshapehackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kfang.attshapehackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/attshapehackathon.app/attshapehackathon";
+			};
+			name = Release;
+		};
+		0A9E72771D3A0AB40071EFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0A5AEB8C7B7F7EC1E4542B /* Pods-attshapehackathonUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = attshapehackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kfang.attshapehackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = attshapehackathon;
+			};
+			name = Debug;
+		};
+		0A9E72781D3A0AB40071EFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89803198C0CBED7963A75FD1 /* Pods-attshapehackathonUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = attshapehackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kfang.attshapehackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = attshapehackathon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9E723E1D3A0AB30071EFB9 /* Build configuration list for PBXProject "attshapehackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9E726E1D3A0AB40071EFB9 /* Debug */,
+				0A9E726F1D3A0AB40071EFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9E72701D3A0AB40071EFB9 /* Build configuration list for PBXNativeTarget "attshapehackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9E72711D3A0AB40071EFB9 /* Debug */,
+				0A9E72721D3A0AB40071EFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9E72731D3A0AB40071EFB9 /* Build configuration list for PBXNativeTarget "attshapehackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9E72741D3A0AB40071EFB9 /* Debug */,
+				0A9E72751D3A0AB40071EFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9E72761D3A0AB40071EFB9 /* Build configuration list for PBXNativeTarget "attshapehackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9E72771D3A0AB40071EFB9 /* Debug */,
+				0A9E72781D3A0AB40071EFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9E723B1D3A0AB30071EFB9 /* Project object */;
+}
