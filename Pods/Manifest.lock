@@ -20,13 +20,16 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Firebase (2.5.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - Firebase (>= 2.5.1)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
 
-PODFILE CHECKSUM: a33aab8b11c43b50fb19144884bef7cfbfcd0744
+PODFILE CHECKSUM: 06a68b3acab2f899182432efb4e654165302a0d9
 
 COCOAPODS: 1.0.1

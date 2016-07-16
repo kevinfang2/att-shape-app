@@ -5,6 +5,8 @@ target 'attshapehackathon' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 pod 'AFNetworking', '~> 2.0'
+pod 'Firebase', '>= 2.5.1'
+
   # Pods for attshapehackathon
 
   target 'attshapehackathonTests' do

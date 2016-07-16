@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C28B671D04BE8262DCAA2F2E071A9655'
+               BlueprintIdentifier = '353C4A58E1A343127B4AA6F76CCD8BB3'
                BlueprintName = 'Pods-attshapehackathon'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-attshapehackathon.a'>
